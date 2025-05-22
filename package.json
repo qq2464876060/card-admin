@@ -2,6 +2,7 @@
   "name": "card-admin",
   "version": "1.0.0",
   "scripts": {
+    "prebuild": "chmod +x node_modules/.bin/vite",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
@@ -18,3 +19,4 @@
     "vite": "^5.4.19"
   }
 }
+
